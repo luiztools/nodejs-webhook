@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <form action="/" method="post">
+    <fieldset>
+      <legend>Venda de Produto</legend>
+      <p>
+        <label>Nome do Cliente:
+
+          <input type="text" value="" name="cliente" />
+        </label>
+      </p>
+      <p>
+        <label>Produto:
+          <select name="produto">
+            <option value="1">Mouse</option>
+            <option value="2">Monitor</option>
+            <option value="3">CPU</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <label>Valor Pago:
+          <input type="number" value="" name="valor" />
+        </label>
+      </p>
+      <p>
+        <input type="submit" value="Comprar" />
+      </p>
+    </fieldset>
+  </form>
+</body>
+
+</html>

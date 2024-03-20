@@ -1,7 +1,12 @@
-# nodejs-webhook
-Simples webhook example with Node.js
+# server-app
+The webhook server and example app.
 
-See each folder for more info.
+## How to Run
+
+1. git clone
+2. cd into folder
+3. npm install
+4. npm start
 
 ## More
 
